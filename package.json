@@ -1,0 +1,24 @@
+{
+  "name": "automatizacaofinanceira",
+  "version": "1.0.0",
+  "description": "Coleta as informações do crm hubsot em seguida vai no portal da hapvida e pegar os boletos e retornar para hubspot os boletos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iagoln/Automatizacaofinanceira.git"
+  },
+  "author": "Iago Nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iagoln/Automatizacaofinanceira/issues"
+  },
+  "homepage": "https://github.com/iagoln/Automatizacaofinanceira#readme",
+  "dependencies": {
+    "moment": "^2.29.0",
+    "puppeteer": "^5.3.1",
+    "request": "^2.88.2"
+  }
+}
